@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The Kitchen</title>
+		<style>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		</style>
+
+	</head>
+	<body>
+
+<div class="container-fluid">
+		
+		<h1>Contact The Kitchen</h1>
+		<hr />
+		<p><a href="index.html">Home</a></p>
+		<hr />
+		<h2>Information Request</h2>
+		<form action="submit.html" method="POST">
+			<label for="firstName">First Name:</label><br />
+			<input type="text" id="firstName" name="firstName"><br />
+			<label for="lastName">Last Name:</label><br />
+			<input type="text" id="lastName" nasme="lastName"><br />
+			<label for="phone">Phone Number:</label><br />
+			<input type="text"id="phone" name="phone"><br />
+			<label for="contact">Best time to call:</label><br />
+
+			<select id="contact" name="contact">
+				<option value="default" selected>--Select One--</option>
+				<option value="morning">Morning (8AM to 12PM Eastern</option>
+				<option value="afternoon">Afternoon (12PM to 5PM Eastern</option>
+				<option value="evening">Evening (5PM to 8PM Eastern)</option>
+			</select>
+
+
+			<fieldset>
+			<legend>I am interested in enrolling my child (check all that apply):</legend><br />
+
+			<input type="checkbox" id="fullTime" name="interest" value="fullTime">
+			<label for="parttime">Full-time</label>			<br />
+
+			<input type="checkbox" id="partTime" name="interest" value="partTime">
+			<label for="partTime">Part-Time</label><br />
+			<input type="checkbox" id="weekEnd" name="interest" value="weekEnd">
+			<label for="database">Weekend</label><br />
+
+
+			</fieldset>
+			<fieldset>
+			<legend>Do you need Childcare for the Weekend:</legend><br />
+			<input type="radio" id="choice1" name="questionnaire" value="yes">
+			<label for="choice1">Yes</label><br />
+			<input type="radio" id="choice2" name="questionnaire" value="no">
+			<label for="choice2">No</label><br />
+			</fieldset>
+			<label for="info">Additional Information</label><br />
+			<textarea id="info"></textarea><br />
+			<input type="submit" name="submit" value="Submit">
+		
+		</form>
+		<hr />
+		<p>&copy; 1738 Joan Eugene</p>
+	</body>
+
+
+</html>
